@@ -1,0 +1,31 @@
+.newsletter {
+	// Box Model
+	margin-bottom: 60px;
+
+	&__title {
+		// Box Model
+		margin: 0;
+
+		// Typography
+		font-family: $gilroy;
+		font-size: 16px;
+		font-weight: 700;
+		color: #fff;
+	}
+
+	&__description {
+		// Typography
+		font-family: $openSans;
+		color: #fff;
+
+		p {
+			// Typography
+			font-size: 12px;
+		}
+	}
+
+	&__form {
+		// Box Model
+		width: 100%;
+	}
+}

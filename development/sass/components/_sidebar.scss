@@ -1,0 +1,16 @@
+.sidebar {
+	// Box Model
+	width: 330px;
+	height: 100vh;
+	padding: 30px;
+
+	// Visual
+	background-color: #333333;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+	overflow: auto;
+}
+
+.logo {
+	// Box Model
+	margin-bottom: 110px;
+}

@@ -1,0 +1,35 @@
+.btn {
+	// Box Model
+	display: inline-block;
+	padding: 10px;
+	border: none;
+
+	// Typography
+	font-family: $openSans;
+	font-size: 14px;
+	font-weight: 600;
+
+	// Visual
+	transition: all .4s ease-out;
+	background-color: transparent;
+
+	&--block {
+		// Box Model
+		display: block;
+		width: 100%;
+	}
+
+	&--blue {
+		// Typography
+		color: #fff;
+
+		// Visual
+		background-color: #1577AB;
+
+
+		&:hover {
+			// Visual
+			background-color: darken(#1577AB, 10%);
+		}
+	}
+}

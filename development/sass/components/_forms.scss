@@ -1,0 +1,25 @@
+.form {
+
+	&__group {
+		// Box Model
+		width: 100%;
+		margin-top: 10px;
+
+		&:first-child {
+			// Box Model
+			margin-top: 0;
+		}
+	}
+
+	&__input {
+		// Box Model
+		width: 100%;
+		padding: 10px;
+		border: 1px solid #343E47;
+
+		// Typography
+		font-family: $openSans;
+		font-size: 14px;
+		font-weight: 600;
+	}
+}

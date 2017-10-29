@@ -83,7 +83,7 @@ add_filter('excerpt_more', 'custom_excerpt_more');
  * @return int         The new length of excerpt
  */
 function new_excerpt_length($length) {
-  return 100;
+  return 25;
 }
 add_filter('excerpt_length', 'new_excerpt_length');
 
