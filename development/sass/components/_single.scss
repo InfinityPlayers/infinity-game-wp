@@ -13,6 +13,10 @@
 		padding: 0 60px;
 		margin-bottom: 60px;
 
+		// Visual
+		background-position: center;
+		background-size: cover;
+
 		&:before {
 			// Position
 			position: absolute;
@@ -117,6 +121,15 @@
 				color: $text;
 				text-decoration: none;
 			}
+		}
+	}
+
+	&__text {
+
+		img {
+			// Box Model
+			max-width: 100%;
+			height: auto;
 		}
 	}
 }
